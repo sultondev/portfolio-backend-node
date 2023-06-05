@@ -1,0 +1,19 @@
+{
+  "name": "portfolio-backend-node",
+  "version": "1.0.0",
+  "description": "portfolio backend using node js express js and mongo db",
+  "main": "server.js",
+  "repository": "https://github.com/sultondev/portfolio-backend-node.git",
+  "author": "sultondev",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "prod": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "mongoose": "^7.2.2",
+    "morgan": "^1.10.0"
+  }
+}
